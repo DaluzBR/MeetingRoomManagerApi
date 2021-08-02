@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\create-room",
+    "\\src\\app\\room-details",
+    "\\src\\app\\room-list",
+    "\\src\\app\\update-room"
+  ],
+  "SelectedNode": "\\src\\app\\create-room",
+  "PreviewInSolutionExplorer": false
+}

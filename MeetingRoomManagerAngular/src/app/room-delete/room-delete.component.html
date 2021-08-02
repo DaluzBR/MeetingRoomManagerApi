@@ -1,0 +1,33 @@
+<h2>Delete Room</h2>
+
+<hr />
+<div *ngIf="room">
+  <div>
+    <label><b>Name: </b></label> {{room.name}}
+  </div>
+  <div>
+    <label><b>Date: </b></label> {{room.date}}
+  </div>
+  <div>
+    <label><b>Start (Hs): </b></label> {{room.startHour}}
+  </div>
+  <div>
+    <label><b>End (Hs): </b></label> {{room.endHour}}
+  </div>
+  <div>
+    <label><b>Description: </b></label> {{room.description}}
+  </div>
+  <br>
+  <div class="container">
+    <div class="p-3 mb-2 bg-danger text-white">
+      <b>Warning:</b> Deleting this room will permanently delete all information. Are you sure you want to delete the room: <b>{{room.name}}</b>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<button (click)="deleteRoom(room.id)" class="btn btn-danger" style="margin-right: 10px">Delete</button>
+<button (click)="listRooms()" class="btn btn-primary">Back to Room List</button>
+<br>
+

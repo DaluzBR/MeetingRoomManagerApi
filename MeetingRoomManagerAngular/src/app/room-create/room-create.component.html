@@ -1,0 +1,38 @@
+<h3>Create Room</h3>
+<div [hidden]="submitted" style="width: 400px;">
+  <!--form (ngSubmit)="onSubmit()"-->
+  <form (ngSubmit)="onSubmit()" #roomForm="ngForm" *ngIf="room">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="room.name" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Date</label>
+      <input type="text" class="form-control" id="date" required [(ngModel)]="room.date" name="date">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Start (Hs)</label>
+      <input type="text" class="form-control" id="startHour" required [(ngModel)]="room.startHour" name="startHour">
+    </div>
+
+    <div class="form-group">
+      <label for="name">End (Hs)</label>
+      <input type="text" class="form-control" id="endHour" required [(ngModel)]="room.endHour" name="endHour">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Description</label>
+      <textarea type="text" class="form-control" id="description" required [(ngModel)]="room.description" name="description"></textarea>
+    </div>
+
+    <br />
+
+    <button [disabled]="roomForm.invalid" type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <button class="btn btn-success" (click)="newRoom()">Add</button>
+</div>

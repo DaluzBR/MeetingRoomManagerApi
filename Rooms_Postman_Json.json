@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Bootcamp Inter Android Developer",
+    "description": "Conheça melhor o Inter, uma das plataformas de serviços financeiros e não financeiros mais completas do Brasil, e confira também respostas às dúvidas mais frequentes sobre funcionamento do programa e vagas disponíveis.",
+    "date": "01/08/2021",
+    "startHour": "16:00",
+    "endHour": "18:00"
+  },
+  {
+    "id": 2,
+    "name": "Bootcamp everis New Talents Java",
+    "description": "Esse bootcamp é para que você conheça mais sobre a multinacional everis, que tem sua sede na Espanha e já está presente em 17 países! Vamos responder dúvidas sobre o bootcamp, o processo seletivo e as vagas disponíveis.",
+    "date": "02/08/2021",
+    "startHour": "14:00",
+    "endHour": "16:00"
+  },
+  {
+    "id": 3,
+    "name": "Lógica de programação essencial",
+    "description": "Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.",
+    "date": "03/08/2021",
+    "startHour": "09:00",
+    "endHour": "12:00"
+  },
+  {
+    "id": 4,
+    "name": "Introdução ao Git e ao GitHub",
+    "description": "Nesse curso vamos aprender um pouco da história do Git e como ele se tornou essencial para otimizar projetos dos desenvolvedores. Também vamos conhecer seus principais comandos, como funciona a plataforma e como ela pode simplificar o seu trabalho.",
+    "date": "04/08/2021",
+    "startHour": "16:00",
+    "endHour": "21:00"
+  },
+  {
+    "id": 5,
+    "name": "Introdução ao Kotlin",
+    "description": "Bem-vindo ao mundo do Kotlin, tudo que você precisa para dar seus primeiros passos na linguagem com conceitos e sintaxe básica.",
+    "date": "05/08/2021",
+    "startHour": "13:00",
+    "endHour": "17:00"
+  },
+  {
+    "id": 6,
+    "name": "Projetos ágeis com SCRUM",
+    "description": "SCRUM é um framework utilizado no gerenciamento ágil de projetos de software. Esse curso ensinará os fundamentos e práticas da metodologia. ",
+    "date": "06/08/2021",
+    "startHour": "15:00",
+    "endHour": "16:00"
+  },
+  {
+    "id": 8,
+    "name": "Fundamentos de Arquitetura de Sistemas",
+    "description": "Aprenda nesse curso sobre como funcionam as arquiteturas de softwares, seus conceitos, aplicações e desenvolvimento de operações. ",
+    "date": "08/08/2021",
+    "startHour": "15:00",
+    "endHour": "16:00"
+  },
+  {
+    "id": 10,
+    "name": "Introdução a Qualidade de Software",
+    "description": "Conheça uma das áreas do desenvolvimento de software mais importante para a criação de soluções estáveis e segura, a Garantia de Qualidade. Entenda os principais fundamentos de qualidade de software, bem como a importância de sua respectiva atividade.",
+    "date": "10/08/2021",
+    "startHour": "16:00",
+    "endHour": "17:30"
+  }
+]
